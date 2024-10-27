@@ -19,11 +19,16 @@ public class Mobil {
     }
 
     public void berjalan() {
-        System.out.println("Mobil " + merek + "sedang berjalan");
+        System.out.println("Mobil " + merek + " sedang berjalan");
     }
 
     public void berhenti() {
         System.out.println("Mobil " + merek + " sedang berhenti");
+    }
+
+    public static void printOutApaSaja(String[] args) {
+        System.out.println("Print out apa saja");
+
     }
 
 

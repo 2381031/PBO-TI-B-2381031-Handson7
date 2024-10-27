@@ -1,7 +1,7 @@
 package enkapsurasi;
 
 public class BankAccount{
-    double saldo;
+    private double saldo;
 
     public  BankAccount(double saldo) {
         this.saldo = saldo;
